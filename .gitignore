@@ -1,0 +1,27 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Variables sensibles
+.env
+.env.*
+!.env.example
+
+# Fichiers macOS
+.DS_Store
+
+# Données locales
+data/raw/
+data/demo/
+
+# Journaux ETL
+*.log
+logs/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
